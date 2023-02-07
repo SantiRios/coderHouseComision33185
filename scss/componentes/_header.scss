@@ -1,0 +1,27 @@
+nav{
+    div{
+        a{
+            img{
+                height: 80px;
+            }
+        }
+        button{
+            span{
+
+            }
+        }
+        div{
+            ul{
+                transition: 2s;
+                li{
+                    &:hover{
+                        background-color: rgb(245, 230, 210);
+                    }
+                    a{
+
+                    }
+                }
+            }
+        }
+    }
+}

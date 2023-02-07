@@ -1,0 +1,7 @@
+nav div a img {
+  height: 80px; }
+
+nav div div ul {
+  transition: 2s; }
+  nav div div ul li:hover {
+    background-color: #f5e6d2; }
