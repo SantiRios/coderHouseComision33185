@@ -1,0 +1,83 @@
+body{
+    font-family: 'Sofia Sans', sans-serif;
+    background-color: white;
+    /**HERO*/
+    .hero{
+        margin-top: 80px;
+        display: flex;
+        position: relative;
+        width: 100vw;
+        height: 600px;
+        img{
+            width: 100vw;
+            object-fit: cover;
+        }
+        div{
+            display: flex;
+            position: absolute;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            top: 50%;
+            h1{
+                font-size: 45px;
+                background-color: white;
+                padding: 8px 12px;
+                border: 4px solid;
+            }
+            a{
+                font-size: 40px;
+                text-decoration: none;
+                color: black;
+                background-color: burlywood;
+                padding: 8px 12px;
+                border: 4px solid;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+        }
+    }
+    /*Seccion favoritos y equipajes*/
+    .nuestrosFavoritos{
+        height: 100%;
+        margin:60px;
+        margin-top: 0;
+        text-align: center;
+        .nuestrosFavoritos h2{
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        .nuestrosFavoritosContenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .nuestrosFavoritosItem{
+                background-color: white;
+                width: 305px;
+                height: 270px;
+                border: 3px solid black;
+                margin: 10px;
+                a{
+                    list-style: none;
+                    text-decoration: none; 
+                    font-size: 20px;
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .noticias{
+        margin: 0px 60px 0px 60px;
+        h2{
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 10px;
+            text-align: center;
+        }
+    }
+}
